@@ -1,0 +1,32 @@
+* { box-sizing: border-box; }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 50px);
+    grid-template-rows: repeat(7, 50px);
+    gap: 1rem;
+    background-color: blue;
+    padding: 1rem;
+}
+
+.grid div {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.player-one {
+    background-color: red !important; 
+    border-radius: 50%;
+}
+
+.player-two {
+    background-color: yellow !important;
+    border-radius: 50%;
+}
