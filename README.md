@@ -34,3 +34,6 @@ Project created with [this tutorial](https://youtu.be/ec8vSKJuZTk?si=OK3MNlmoONk
 1. Jeopardy
 2. Pacman
 3. Word Association
+
+## Random Projects
+1. Random Quote Generator
