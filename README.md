@@ -18,3 +18,14 @@ Projects created with [this tutorial](https://youtu.be/c5SIG7Ie0dM)
 13. Lorem Ipsum ✓
 14. Grocery ✓
 15. Slider ✓
+
+## JavaScript Games
+Project created with [this tutorial](https://youtu.be/ec8vSKJuZTk?si=OK3MNlmoONknkPcc)
+### Projects
+1. Rock Paper Scissors ✓
+2. Memory ✓
+3. Whac-a-mole ✓
+4. Breakout ✓
+5. Frogger ✓
+6. Connect four
+7. Space Invaders

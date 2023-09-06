@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+main {
+    width: 550px;
+    height: 550%;
+    position: relative;
+    top: 40%;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3 {
+    margin: 1rem;
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+
+#start-pause-btn {
+    border: none;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    box-shadow: 0px 10px 13px -7px #BEBFC5, 5px 5px 15px 5px rgba(190, 191, 197,0.5);
+    margin: 2rem 0;
+}
+
+.grid {
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 10px 13px -7px #BEBFC5, 5px 5px 15px 5px rgba(190, 191, 197,0.5);
+}
+
+.grid div {
+    width: 50px;
+    height: 50px;
+}
+
+.ending-block { 
+    background: url(images/finish-line.png) no-repeat center;
+    background-size: cover;
+ }
+
+.starting-block { 
+    background: url(images/start.png) no-repeat center;;
+    background-size: cover;
+}
+
+.l1, .l2, .l3 {
+    background: url(images/rocks.png) no-repeat center;;
+    background-size: 80%;
+} 
+
+.l4, .l5 {
+    background: url(images/water-waves.png) no-repeat center;;
+    background-size: cover;
+}
+
+.c1 { 
+    background: url(images/vehicule.png) no-repeat center;;
+    background-size: 80%;
+}
+
+.c2, .c3 { 
+    background: url(images/road.png) no-repeat center;;
+    background-size: cover;
+}
+
+.frog { 
+    background: url(images/frog.png) no-repeat center;;
+    background-size: 80%;
+}
