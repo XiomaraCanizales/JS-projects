@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter&display=swap');
+
+/* variables */
+:root {
+  --ff-primary: 'Inter', sans-serif;
+  --ff-secondary: 'Dancing Script', cursive;
+  --clr-white: #F8F9FA;
+  --clr-black: #212529;
+  --clr-light_blue: #0096c7;
+  --clr-gray-1: #495057; 
+  --clr-gray-2: #343A40;
+  --clr-gray-3: #E9ECEF;
+  
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --fixed-width: 620px;
+  --fixed-height: 620px;
+  --transition: all 0.3s linear;
+  --light-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  --dark-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* global styles */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--ff-primary);
+  background: var(--clr-gray-3);
+  color: var(--clr-gray-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+main {
+  min-height: 90vh;
+  margin-top: 10vh;
+  display: grid;
+  place-items: start center;
+}
+h1 { 
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  font-family: var(--ff-secondary);
+  font-size: 3rem; 
+  margin: 2rem 0;
+}
+p {
+  font-size: 0.85rem;
+  line-height: 1.25;
+  padding: 1rem;
+  text-transform: capitalize;
+}
+article {
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 800px) {
+  h1 { font-size: 4rem; }
+  p { font-size: 1.25rem; } 
+}
+
+/* questions */
+.question_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.question_title p,
+.question_text p{
+  margin-bottom: 0;
+  letter-spacing: var(--spacing);
+}
+.question_btn {
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: #47A8BD;
+  transition: var(--transition);
+}
+.question_btn:hover { transform: rotate(90deg); }
+.question_text {
+  padding: 1rem 0 1.5rem 0;
+  border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+/* hide text*/
+.question_text { display: none; }
+.show-text .question_text { display: block; }
+.minus-icon { display: none; }
+.show-text .minus-icon { display: inline; }
+.show-text .plus-icon { display: none; }

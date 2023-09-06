@@ -1,0 +1,119 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* Variables */
+
+:root {
+
+  --baby-blue-eyes: #b7d3f2ff;
+  --maximum-blue-purple: #afafdcff;
+  ---russian-violet: #0e0c32ff;
+  --french-sky-blue: #84afe6ff;
+  --aero: #79beeeff;
+  
+  --font: 'Montserrat', sans-serif;
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 620px;
+}
+
+/* Global Styles */
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--font);
+  background-color: var(--baby-blue-eyes);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+img {
+  display: block;
+  width: 100%;
+}
+
+/* slider */
+.slider-container {
+  width: 80vw;
+  max-width: 80rem;
+  height: 40vh;
+  position: relative;
+  margin: 4rem auto 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
+  display: grid;
+  place-items: center;
+
+  
+}
+
+.slide h1 {
+  color: whitesmoke;
+  position: absolute;
+  font-size: 5rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slide-img{
+   max-height: 500px;
+   object-fit: cover;
+   box-shadow: var(--dark-shadow);
+}
+
+/* buttons */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.75rem;
+}
+.prevBtn,
+.nextBtn {
+  background: transparent;
+  border-color: transparent;
+  font-size: 1.75rem;
+  cursor: pointer;
+  margin: 0 0.25rem;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: var(---russian-violet);
+  transition: var(--transition);
+}
+.prevBtn:hover,
+.nextBtn:hover {
+  color: #2E28A4;
+}
+
+/* queries */
+@media screen and (min-width: 576px) {
+  .slider-container {
+    height: 45vh;
+  }
+}
+@media screen and (min-width: 768px) {
+  .slider-container {
+    height: 55vh;
+  }
+}
+@media screen and (min-width: 992px) {
+  .slider-container {
+    height: 65vh;
+  }
+}

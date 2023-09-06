@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+
+    <title>Grocery Bud</title>
+</head>
+<body>
+    <section class="container">
+        <!-- form -->
+        <form class="grocery_form">
+            <p class="alert"></p>
+            <h1>grocery bud</h1>
+            <div class="form_control">
+                <input type="text" name="grocery" id="add_item" placeholder="add item">
+                <button type="submit" class="submit_btn">submit</button>
+            </div>
+        </form>
+        <!-- list -->
+        <div class="grocery_container">
+            <div class="grocery_list">
+                <!-- adding dynamically -->
+                 <!-- <article class="grocery_item">
+                   <p class="item">item</p>
+                    <div class="btn_container">
+                        <button class="edit_btn">
+                            <i class="fas fa-edit"></i>
+                        </button>
+                        <button class="delete_btn">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </div> 
+                </article>-->
+            </div>
+            <!-- button -->
+            <button type="button" class="clear_btn">clear items</button>
+        </div>
+    </section>
+    <!-- javascript -->
+    <script src="app.js"></script>
+</body>
+</html>

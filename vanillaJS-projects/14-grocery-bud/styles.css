@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* VARIABLES */
+:root {
+    --font: 'Montserrat', sans-serif;
+
+    --russian-violet: #0d0630ff;
+    --y-in-mn-blue: #384e77ff;
+    --green-sheen: #8bbeb2ff;
+    --key-lime: #e6f9afff;
+    --beau-blue: #d1e0f0ff;
+
+    --red: #FF6B6B;
+
+    --spacing: 0.1rem;
+    --radius: 0.25rem;
+    --fixed-width: 620px;
+    --transition: all 0.3s linear;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* GLOBAL STYLES */
+
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--beau-blue);
+    color: var(--russian-violet);
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+
+h1 {
+    text-transform: capitalize;
+    letter-spacing: var(--spacing);
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/* GROCERY LIST */
+.container {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 35rem;
+    margin-top: 8rem;
+    background-color: whitesmoke;
+    border-radius: var(--radius);
+    box-shadow: var(--light-shadow);
+   /*  transition: var(--transition); */
+    padding: 2rem;
+}
+
+.container:hover {
+    box-shadow: var(--dark-shadow);
+}
+
+.alert {
+    margin-bottom: 1rem;
+    height: 1.25rem;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 0.7rem;
+    border-radius: var(--radius);
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+}
+
+.alert_danger {
+    color: var(--red);
+    background-color: #FF6B6B20;
+}
+.alert_success {
+    color: #1F6F6Aff;
+    background-color: #1F6F6A20;
+}
+
+/* form */
+.form_control {
+    display: flex;
+    justify-content: center;
+}
+
+#add_item {
+    padding: 0.25rem;
+    padding-left: 1rem;
+    border-top-left-radius: var(--radius);
+    border-bottom-left-radius: var(--radius);
+    border-color: transparent;
+    font-size: 1rem;
+    flex: 1 0 auto;
+    outline-style: none;
+}
+
+#add_item::placeholder {
+    font-family: var(--font);
+    text-transform: capitalize;
+}
+
+.submit_btn {
+    background-color: var(--green-sheen);
+    border-color: transparent;
+    border-color: transparent;
+    flex: 0 0 5rem;
+    display: grid;
+    align-items: center;
+    padding: 0.25rem;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-top-right-radius: var(--radius);
+    border-bottom-right-radius: var(--radius);
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.submit_btn:hover {
+    border: 1px solid  var(--green-sheen);
+    background-color: whitesmoke;
+}
+
+/* list */
+.grocery_container {
+    margin-top: 2rem;
+    transition: var(--transition);
+    visibility: hidden;
+}
+
+.show_container {
+    visibility: visible;
+}
+
+.grocery_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    transition: var(--transition);
+    padding: 0.25rem 1rem;
+    border-radius: var(--radius);
+    text-transform: capitalize;
+    font-family: var(--font);
+}
+
+.grocery_item:hover {
+    background: #384e7720;
+}
+
+.item {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    transition: var(--transition);
+    font-size: 1rem;
+}
+
+/* buttons */
+.edit_btn,
+.delete_btn {
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin: 0 0.15rem;
+    transition: var(--transition);
+}
+
+.clear_btn {
+    text-transform: capitalize;
+    width: 10rem;
+    height: 1.5rem;
+    display: grid;
+    align-items: center;
+    background: transparent;
+    border-color: transparent;
+    color: var(--red);
+    margin: 0 auto;
+    font-size: 0.85rem;
+    letter-spacing: var(--spacing);
+    cursor: pointer;
+    transition: var(--transition);
+    margin-top: 1.25rem
+}
+
+.clear_btn:hover {
+    background: var(--red);
+    color: whitesmoke;
+}
+
+
+/* RESPONSIVENESS */
+@media  screen and (min-width: 800px) {
+    h1 { font-size: 4rem; }
+    body { font-size:  1rem; }
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+:root {
+    --purple-navy: #424874ff;
+    
+    --maximum-blue-purple: #a6b1e1ff;
+    --glaucous: #7586D1ff;
+    --lavender-web: #D9DDE8ff;
+    --charcoal: #353c45ff;
+
+    --spacing: 0.1rem;
+    --radius: 0.5rem;
+}
+
+/* GLOBAL STYLES */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: var(--lavender-web);
+    color: var(--purple-navy);
+    line-height: 1.5;
+    font-size: 0.875rem;
+    width: 100%;
+    max-width: 1170px;
+}
+
+h2 { 
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+    line-height: 1.25;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color: var(--charcoal);
+    padding: 0 5rem;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem 2rem;
+}
+
+form {
+    padding: 4rem 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;   
+}
+
+label, input, button {
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+input[type=number] {
+    width: 5rem;
+    padding: 0.5rem;
+    border-radius: var(--radius);
+    border: none;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius);
+    border: none;
+    background-color: var(--maximum-blue-purple);
+}
+.btn:hover {
+    background-color: var(--glaucous);
+}

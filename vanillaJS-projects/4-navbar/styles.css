@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* VARIABLES */
+:root {
+    --spacing: 0.1rem;
+    --radius: 0.25rem;
+    --transition: all 0.3s linear;
+
+    --rich-black-fogra-39: #010400ff;
+    --eerie-black: #1e201dff;
+    --snow: #fffbfcff;
+    --maximum-blue-green: #62bbc1ff;
+    --deep-cerise: #ec058eff;
+}
+/* GLOBAL STYLES */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 0.875rem;
+    background: var(--snow);
+    color: var(--eerie-black);
+}
+ul { list-style-type: none; }
+a { text-decoration: none; }
+
+/* NAVBAR */
+nav { 
+    background-color: var(--maximum-blue-green); 
+    margin-bottom: 2rem;
+}
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--snow);
+    letter-spacing: var(--spacing);
+    text-transform: uppercase;
+}
+.logo:hover { 
+    transition: var(--transition);
+    color: var(--deep-cerise); 
+}
+.nav-toggle {
+    font-size: 1.5rem;
+    color: var(--snow);
+    background: transparent;
+    border-color: transparent;
+    transition: var(--transition);
+    cursor: pointer;
+}
+.nav-toggle:hover {
+    transform: rotate(90deg);
+    color: var(--deep-cerise);
+}
+.nav-links {
+    height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+}
+.nav-links a {
+    color: var(--eerie-black);
+    font-size: 1rem;
+    letter-spacing: var(--spacing);
+    text-transform: uppercase;
+    display: block;
+    padding: 1rem;
+    transition: var(--transition);
+}
+.nav-links a:hover { color: var(--deep-cerise); }
+.show-links { height: auto; }
+
+/* RESPONSIVENESS */
+@media screen and (min-width: 800px) {
+    .nav-center {
+        max-width: 1500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .nav-logo { padding: 0; }
+    .nav-toggle { display: none; }
+    .nav-links {
+        height: auto;
+        display: flex;
+    }
+}
