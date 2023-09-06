@@ -1,0 +1,73 @@
+:root{
+    --black: #212529;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 630px;
+    width: 630px;
+    border: 1px solid var(--black);
+}
+
+.grid div {
+    width: 30px;
+    height: 30px;
+    
+}
+
+/* GAME IMAGES SETUP */
+
+.wall {
+    background: #0D41E1;
+    border: 1px solid lightblue;
+}
+
+.pac-dot {
+    background-image: url(../pacman/images/coin.png);
+    background-position: center;
+}
+
+.ghost-lair {
+    border: 0.1rem dashed whitesmoke;
+}
+
+.power-pellet {
+    background: #7209b7;
+    border: 6px solid var(--black);
+    border-radius: 50%;
+}
+
+.pacman {
+    background-image: url(../pacman/images/pacman.png);
+    background-position: center;
+    background-size: contain;
+}
+
+.ghost {
+    background-position: center;
+    background-size: contain;
+}
+
+.blinky { background-image: url(../pacman/images/blinky.png); }
+.pinky { background-image: url(../pacman/images/pinky.png); }
+.inky{ background-image: url(../pacman/images/inky.png); }
+.clyde { background-image: url(../pacman/images/clyde.png); }
+.scared-ghost { background-image: url(../pacman/images/scared.png); }

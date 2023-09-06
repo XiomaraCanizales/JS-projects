@@ -29,3 +29,8 @@ Project created with [this tutorial](https://youtu.be/ec8vSKJuZTk?si=OK3MNlmoONk
 5. Frogger ✓
 6. Connect four
 7. Space Invaders
+
+## Other JavaScript Games
+1. Jeopardy
+2. Pacman
+3. Word Association
