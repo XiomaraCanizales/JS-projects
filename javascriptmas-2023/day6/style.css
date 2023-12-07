@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #d5f2e3;
+    color: #222324;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+h1 { font-size: 2.5rem; }
+
+section { 
+    background-color: #73ba9b;
+    width: 20rem;
+    height: 20rem;
+    padding: 8rem;
+    border-radius: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    box-shadow: 10px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.secret-display {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.btn {
+    background-color:#ef233c;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    box-shadow: 10px 10px 15px -3px rgba(0,0,0,0.1);
+
+    font-family: inherit;
+}
+
+.btn:hover {
+    background-color: #d90429;
+}
+
+/* js added */
+.btn-delete { display: none; }
+
+.btn-show { display: block; }
