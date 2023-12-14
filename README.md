@@ -1,39 +1,66 @@
 # JavaScritp Practice Projects
+
+## Javascriptmas 2023
+- Day 01: Christmas Counter ✅
+- Day 02: Style a Colorful Button ✅
+- Day 03: Divide Candy ✅
+- Day 04: AI Christmas Joke Generator ❌
+- Day 05: Jeopardy Card Flip ✅
+- Day 06: Secret Santa ✅
+- Day 07: Xmas prenset wishlist ✅
+- Day 08: Animated Progress Bar ✅
+- Day 09
+- Day 10
+- Day 11
+- Day 12
+- Day 13
+- Day 14: Lonely Elf ✅
+- Day 15
+- Day 16
+- Day 17
+- Day 18
+- Day 19
+- Day 20
+- Day 21
+- Day 22
+- Day 23
+- Day 24
+
 ## Vanilla JS Beginners Projects
 Projects created with [this tutorial](https://youtu.be/c5SIG7Ie0dM)
 
 ### Projects
-1. Color Flipper ✓
-2. Counter ✓
-3. Reviews ✓
-4. Navbar ✓
-5. Sidebar ✓
-6. Modal ✓
-7. Questions ✓
-8. Menu ✓
-9. Video ✗
-10. Scroll ✓
-11. Tabs ✓
-12. Countdown ✓
-13. Lorem Ipsum ✓
-14. Grocery ✓
-15. Slider ✓
+- Color Flipper ✅
+- Counter ✅
+- Reviews ✅
+- Navbar ✅
+- Sidebar ✅
+- Modal ✅
+- Questions ✅
+- Menu ✅
+- Video ❌
+- Scroll ✅
+- Tabs ✅
+- Countdown ✅
+- Lorem Ipsum ✅
+- Grocery ✅
+- Slider ✅
 
 ## JavaScript Games
 Project created with [this tutorial](https://youtu.be/ec8vSKJuZTk?si=OK3MNlmoONknkPcc)
 ### Projects
-1. Rock Paper Scissors ✓
-2. Memory ✓
-3. Whac-a-mole ✓
-4. Breakout ✓
-5. Frogger ✓
-6. Connect four
-7. Space Invaders
+- Rock Paper Scissors ✅
+- Memory ✅
+- Whac-a-mole ✅
+- Breakout ✅
+- Frogger ✅
+- Connect four ✅
+- Space Invaders ✅
 
 ## Other JavaScript Games
-1. Jeopardy
-2. Pacman
-3. Word Association
+- Jeopardy
+- Pacman
+- Word Association
 
 ## Random Projects
-1. Random Quote Generator
+- Random Quote Generator
