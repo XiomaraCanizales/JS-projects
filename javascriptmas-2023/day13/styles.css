@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300;500&display=swap');
+
+:root {
+    --wine-red: #C7375F;
+    --bright-red: #D42D2F;
+    --dark-green: #344D2F;
+    --light-green: #77A047;
+    --gold: #FAC57D;
+    --snow: #F0F4F7;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    color: var(--snow);
+    background-color: var(--wine-red);
+    font-family: 'Kalnia', serif;
+    font-weight: 300;
+}
+
+h1 { 
+    margin: 0; 
+    text-align: center;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+form input,
+form button,
+#result {
+    box-sizing: border-box;
+    box-shadow: 
+        rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 5px;
+    border: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 12em;
+    justify-content: space-around;
+}
+
+form * {
+    padding: .5em;
+    font-size: 1.3rem;
+}
+
+label { padding: 0; }
+
+input {
+    background-color: var(--snow);
+    color: var(--dark-green);
+}
+
+.veggie,
+.seafood,
+.drink {
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.veggie > input,
+.seafood > input,
+.drink > input { 
+    margin-right: 10px; 
+}
+
+#result {
+    color: var(--wine-red);
+    min-width: 500px;
+    max-width: 5ch;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: var(--snow);
+    padding: 1em;
+    font-size: 1.5rem;
+}
+
+#result span { color: var(--dark-green); }
+
+.guest-limit { 
+    display: block;
+    font-size: 0.8rem; 
+}
+
+button {
+    color: var(--dark-green);
+    background-color: var(--gold);
+    margin-bottom: 20px;
+}
+
+button:hover,
+button:focus {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#food { white-space: pre-line; }

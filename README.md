@@ -13,7 +13,7 @@
 - Day 10
 - Day 11
 - Day 12
-- Day 13
+- Day 13: Christmas Dinner Picker ✅
 - Day 14: Lonely Elf ✅
 - Day 15
 - Day 16
