@@ -44,10 +44,18 @@ Create a UI with a button to trigger your Secret Santa function and display the 
 - Render the image to the DOM -->
 
 ## Day 10
+<!-- :Rockin Around
+- Build a Christmas Jukebox App
+- Include a YT video -->
 
 ## Day 11
+<!-- :Flag Challenge
+**CSS Challenge**
+- Build the Switzerland Flag using CSS only -->
 
 ## Day 12
+<!-- :Santa Gift Sorter
+- Help Santa by sortin the gifts array into alphabetical and reverse alphabetical order -->
 
 ## Day 13: Christmas Dinner Picker
 - Write the code to help a user choose the perfect Christmas dinner idea based on the number of people attending.
@@ -64,3 +72,14 @@ Create a UI with a button to trigger your Secret Santa function and display the 
 *Stretch Goals* 
 - Write a function to give the elves some tools
 - Limit the total number of elves to 100
+
+## Day 15: Archery Target
+**CSS Challenge**
+- Build an archery target
+
+## Day 16: Naughty List, Nice List
+- Write the Javascript to sort the peope in the array into the naughty and nice lists according to wheter they have been good or not.
+- Display the names in the relevant place in the DOM
+*Stretch Goals* 
+- Add the option to add new names to the sorteesArr
+- Make it possible to switch people to the other list

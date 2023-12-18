@@ -1,0 +1,64 @@
+:root {
+    --black: #282828;
+    --blue: #2892f9;
+    --red: #fb2f27;
+    --yellow: #fdfe29;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 100vh;
+}
+
+h1 {
+    font-size: 5rem;
+    color: var(--black);
+}
+
+.rings {
+    position: relative;
+    margin-bottom: 5rem;
+
+    width: 550px;
+    height: 550px;
+}
+
+.ring {
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.ring-1 {
+    width: 500px;
+    height: 500px;
+    background-color: var(--black);
+}
+
+.ring-2 {
+    width: 400px;
+    height: 400px;
+    background-color: var(--blue);
+}
+
+.ring-3 {
+    width: 300px;
+    height: 300px;
+    background-color: var(--red);
+}
+
+.bullseye {
+    width: 150px;
+    height: 150px;
+    background-color: var(--yellow);
+}
