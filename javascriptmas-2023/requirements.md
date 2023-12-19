@@ -83,3 +83,9 @@ Create a UI with a button to trigger your Secret Santa function and display the 
 *Stretch Goals* 
 - Add the option to add new names to the sorteesArr
 - Make it possible to switch people to the other list
+
+## Day 17: Word Carousel
+**CSS Challenge**
+- Match the style
+- Personalize: display 4 things you love
+- Words should rotate in an infinate loop

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+:root {
+    --bg-word: #5134ff;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h1::after {
+    content: "cats";
+    color: white;
+    background-color: var(--bg-word);
+    padding: 0.5rem 2rem;
+    margin-left: 1rem;
+    animation: word-change 5s linear infinite;
+}
+
+@keyframes word-change {
+    20% { content: "matcha"; }
+    40% { content: "coding"; }
+    60% { content: "puzzles"; }
+    80% { content: "drawing"; }
+}
