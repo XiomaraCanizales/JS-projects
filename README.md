@@ -9,17 +9,17 @@
 - Day 06: Secret Santa ✅
 - Day 07: Xmas prenset wishlist ✅
 - Day 08: Animated Progress Bar ✅
-- Day 09
-- Day 10
-- Day 11
-- Day 12
+- Day 09: AI Christmas Card Generator
+- Day 10: Rockin Around
+- Day 11: Flag Challenge
+- Day 12: Santa Gift Sorter
 - Day 13: Christmas Dinner Picker ✅
 - Day 14: Lonely Elf ✅
-- Day 15
-- Day 16
-- Day 17
-- Day 18
-- Day 19
+- Day 15: Archery Target ✅
+- Day 16: Naughty List, Nice List ✅
+- Day 17: Word Carousel ✅
+- Day 18: AI Alt Text Generator
+- Day 19: Debug Jingle Words ✅
 - Day 20
 - Day 21
 - Day 22

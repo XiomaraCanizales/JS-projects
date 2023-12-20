@@ -89,3 +89,10 @@ Create a UI with a button to trigger your Secret Santa function and display the 
 - Match the style
 - Personalize: display 4 things you love
 - Words should rotate in an infinate loop
+
+## Day 18: AI Alt Text Generator
+**AI Challenge**
+- Use AI to generate alt text for the image of your Christmas e-card (day 9)
+
+## Day 19: Debug Jingle Words
+- There are loads of problems in the JS. Find them and fix them!
