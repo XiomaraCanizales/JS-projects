@@ -20,7 +20,7 @@
 - Day 17: Word Carousel ✅
 - Day 18: AI Alt Text Generator
 - Day 19: Debug Jingle Words ✅
-- Day 20
+- Day 20: Save Santa ✅
 - Day 21
 - Day 22
 - Day 23

@@ -96,3 +96,9 @@ Create a UI with a button to trigger your Secret Santa function and display the 
 
 ## Day 19: Debug Jingle Words
 - There are loads of problems in the JS. Find them and fix them!
+*Stretch Goals* 
+- Add new words
+- Add a play again button
+
+## Day 20: Save Santa
+- Save Santa by removing the lions, tigers. bears and other nefarious creatures from the deeply-nested array
