@@ -43,10 +43,9 @@ Create a UI with a button to trigger your Secret Santa function and display the 
 - Use AI to generate an image for a Christmas e-card
 - Render the image to the DOM -->
 
-## Day 10
-<!-- :Rockin Around
+## Day 10: Rockin Around
 - Build a Christmas Jukebox App
-- Include a YT video -->
+- Include a YT video
 
 ## Day 11
 <!-- :Flag Challenge

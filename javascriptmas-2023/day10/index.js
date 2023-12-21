@@ -1,5 +1,7 @@
 const player = document.getElementById('player')
 
 function playSong(id) {
-    // Challenge: Add code here to make the youtube player play the YT song
+    player.setAttribute('src', `https://www.youtube.com/embed/${id}?autoplay=1` )
 }
+
+// for some reason it doesn't work on my side but it does on scrimba

@@ -9,7 +9,15 @@
 <body>
     <div class="container">
         <h1>🎄 Christmas Jukebox</h1>
-        <iframe id="player" type="text/html" width="320" height="180" src="https://www.youtube.com/embed/PoAjmmD89Vw?autoplay=1" frameborder="0"></iframe>
+        <iframe 
+            id="player" 
+            type="text/html"
+            width="320" height="180" 
+            src="https://www.youtube.com/embed/PoAjmmD89Vw?autoplay=1" 
+            frameborder="0"
+            allow="fullscreen"
+        >
+    </iframe>
         
         <div class="songs">
             <button onclick="playSong('PoAjmmD89Vw')">White Christmas</button>
@@ -19,6 +27,7 @@
             <button onclick="playSong('AN_R4pR1hck')">It's the Most Wonderful Time of the Year</button>
         </div>
       </div>
+      <script src="https://www.youtube.com/iframe_api"></script>
       <script src="index.js"></script>
 </body>
 </html>
