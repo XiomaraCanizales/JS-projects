@@ -1,0 +1,9 @@
+:root {
+    --white: #fff;
+    --red: #FF0002;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
