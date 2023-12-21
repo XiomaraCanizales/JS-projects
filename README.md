@@ -10,8 +10,8 @@
 - Day 07: Xmas prenset wishlist ✅
 - Day 08: Animated Progress Bar ✅
 - Day 09: AI Christmas Card Generator ❌
-- Day 10: Rockin Around
-- Day 11: Flag Challenge
+- Day 10: Rockin Around ✅
+- Day 11: Flag Challenge ✅
 - Day 12: Santa Gift Sorter
 - Day 13: Christmas Dinner Picker ✅
 - Day 14: Lonely Elf ✅

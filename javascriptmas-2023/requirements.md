@@ -38,19 +38,18 @@ Create a UI with a button to trigger your Secret Santa function and display the 
 - Build a CSS animation of a progress bar filling to 100%.
 - The animation should run continuously, with a small pause when the bar is filled 100%
 
-## Day 9
-<!-- **AI Challenge**
+## Day 9: Christmas e-card Generator
+**AI Challenge**
 - Use AI to generate an image for a Christmas e-card
-- Render the image to the DOM -->
+- Render the image to the DOM
 
 ## Day 10: Rockin Around
 - Build a Christmas Jukebox App
 - Include a YT video
 
-## Day 11
-<!-- :Flag Challenge
+## Day 11: Flag Challenge
 **CSS Challenge**
-- Build the Switzerland Flag using CSS only -->
+- Build the Switzerland Flag using CSS only
 
 ## Day 12
 <!-- :Santa Gift Sorter
@@ -89,10 +88,9 @@ Create a UI with a button to trigger your Secret Santa function and display the 
 - Personalize: display 4 things you love
 - Words should rotate in an infinate loop
 
-## Day 18: 
-<!-- AI Alt Text Generator
+## Day 18: AI Alt Text Generator
 **AI Challenge**
-- Use AI to generate alt text for the image of your Christmas e-card (day 9) -->
+- Use AI to generate alt text for the image of your Christmas e-card (day 9)
 
 ## Day 19: Debug Jingle Words
 - There are loads of problems in the JS. Find them and fix them!
