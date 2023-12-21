@@ -9,7 +9,7 @@
 - Day 06: Secret Santa ✅
 - Day 07: Xmas prenset wishlist ✅
 - Day 08: Animated Progress Bar ✅
-- Day 09: AI Christmas Card Generator
+- Day 09: AI Christmas Card Generator ❌
 - Day 10: Rockin Around
 - Day 11: Flag Challenge
 - Day 12: Santa Gift Sorter
@@ -18,10 +18,10 @@
 - Day 15: Archery Target ✅
 - Day 16: Naughty List, Nice List ✅
 - Day 17: Word Carousel ✅
-- Day 18: AI Alt Text Generator
+- Day 18: AI Alt Text Generator ❌
 - Day 19: Debug Jingle Words ✅
 - Day 20: Save Santa ✅
-- Day 21
+- Day 21: Expanding Search Bar ✅
 - Day 22
 - Day 23
 - Day 24

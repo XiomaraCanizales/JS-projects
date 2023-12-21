@@ -103,3 +103,11 @@ Create a UI with a button to trigger your Secret Santa function and display the 
 
 ## Day 20: Save Santa
 - Save Santa by removing the lions, tigers. bears and other nefarious creatures from the deeply-nested array
+
+## Day 21: Expanding Search Bar
+- Expand seach bar when user clicks into it
+- Bar growsn to entire width of its parenct container with smooth transition
+- Shrinks back to original size when user clicks away
+- Blue border
+*Stretch Goals* 
+- Placeholder text is not visible when user clicks inside the search bar
