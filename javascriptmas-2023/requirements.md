@@ -108,3 +108,19 @@ Create a UI with a button to trigger your Secret Santa function and display the 
 - Blue border
 *Stretch Goals* 
 - Placeholder text is not visible when user clicks inside the search bar
+
+## Day 22: Gift App
+- Make data doesn't disappear on reload -> Use localStorage
+*Stretch Goals* 
+- Save the data using Firebase
+- Play GIF after gift bought
+
+## Day 23: Toggle Switch
+- On click, toggle switch moves from one side to another
+- Cursor becomes a pointer
+- Match styles
+
+## Day 24: Christmas Tree Lights
+- Make the Christmas Tree lights flash on and off every 800 milliseconds on a permanent loop
+*Stretch Goals* 
+- Make the lights color toggle alternately
