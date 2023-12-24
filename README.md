@@ -22,9 +22,9 @@
 - Day 19: Debug Jingle Words ✅
 - Day 20: Save Santa ✅
 - Day 21: Expanding Search Bar ✅
-- Day 22: Gift App
-- Day 23: Toggle Switch
-- Day 24: Christmas Tree Lights
+- Day 22: Gift App ✅
+- Day 23: Toggle Switch ✅
+- Day 24: Christmas Tree Lights ✅
 
 ## Vanilla JS Beginners Projects
 Projects created with [this tutorial](https://youtu.be/c5SIG7Ie0dM)
