@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300;500&display=swap');
+
+:root {
+    --wine-red: #C7375F;
+    --snow: #F0F4F7;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    color: var(--snow);
+    background-color: var(--wine-red);
+    font-family: 'Kalnia', serif;
+    font-weight: 300;
+}

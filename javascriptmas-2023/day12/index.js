@@ -1,14 +1,19 @@
+const atoz = document.getElementById('atoz')
+const ztoa = document.getElementById('ztoa')
+
 const xmasGifts = ['guitar 🎸', 'skates ⛸️', 'bear 🧸', 'magnet 🧲', 'laptop 💻', 'games console 🎮 ', 'jewellery 💍', 'kite 🪁']
 
-/**
- * Challenge:
- * 1. Sort the array twice. Alphabetically and reverse alphabetically.  
- **/
+const sortedAZ = xmasGifts.sort()
+sortedAZ.forEach(item => {
+    const newItem = document.createElement('li')
+    newItem.textContent = item
+    atoz.append(newItem)
+})
 
-const sortedAZ = /* write code here */
-console.log('A-Z: ', sortedAZ) 
-//["bear 🧸", "games console 🎮 ", "guitar 🎸", "jewellery 💍", "kite 🪁", "laptop 💻", "scarf 🧣", "skates ⛸️"]
 
-const sortedZA = /* write code here */
-console.log('Z-A: ', sortedZA) 
-//["skates ⛸️", "scarf 🧣", "laptop 💻", "kite 🪁", "jewellery 💍", "guitar 🎸", "games console 🎮 ", "bear 🧸"]
+const sortedZA = xmasGifts.reverse()
+sortedZA.forEach(item => {
+    const newItem = document.createElement('li')
+    newItem.textContent = item
+    ztoa.append(newItem)
+})
