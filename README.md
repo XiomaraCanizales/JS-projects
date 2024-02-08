@@ -1,5 +1,10 @@
 # JavaScritp Practice Projects
 
+## JavaScript Algorithms and Data Structures (Beta)
+Exercises Worked on the Certification Program
+- Role Playing Game
+- Calorie Counter Calculator
+
 ## Javascriptmas 2023
 - Day 01: Christmas Counter ✅
 - Day 02: Style a Colorful Button ✅
