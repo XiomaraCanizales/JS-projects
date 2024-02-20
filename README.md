@@ -4,6 +4,7 @@
 Exercises Worked on the Certification Program
 - Role Playing Game
 - Calorie Counter Calculator
+- Music Player App
 
 ## Javascriptmas 2023
 - Day 01: Christmas Counter ✅
