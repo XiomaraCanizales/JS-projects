@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
 *,
 *::before,
 *::after {
@@ -7,16 +9,18 @@
 }
 
 :root {
-  --very-dark-blue: #0a0a23;
-  --white: #ffffff;
-  --yellow: #f1be32;
-  --golden-yellow: #feac32;
+  --night: #121118;
+  --seasalt: #FAFAFA;
+  --ash-gray: #9AB9B3;
+  --green: #357266;
+  --blush: #E6507C;
 }
 
 body {
-  background-color: var(--very-dark-blue);
+  background-color: var(--ash-gray);
+  font-family: "SUSE", sans-serif;
   text-align: center;
-  color: var(--white);
+  color: var(--seasalt);
 }
 
 h1 {
@@ -27,24 +31,25 @@ h1 {
   cursor: pointer;
   width: 100px;
   margin: 10px;
-  color: var(--very-dark-blue);
-  background-color: var(--golden-yellow);
-  background-image: linear-gradient(#fecc4c, #ffac33);
-  border-color: var(--golden-yellow);
-  border-width: 3px;
+  color: var(--night);
+  background-color: var(--blush);
+  border: var(--blush) 1px solid;
+  padding: 0.5rem;
+  font-size: 0.8rem;
 }
 
 .btn:hover {
-  background-image: linear-gradient(#ffcc4c, #f89808);
+  background-color: var(--ash-gray);
+  border: var(--blush) 1px solid;
 }
 
 .rules-container {
   padding: 10px 0;
   margin: auto;
   border-radius: 15px;
-  border: 5px solid var(--yellow);
-  background-color: var(--white);
-  color: var(--very-dark-blue);
+  border: 5px solid var(--green);
+  background-color: var(--seasalt);
+  color: var(--night);
 }
 
 .rules-container ul {

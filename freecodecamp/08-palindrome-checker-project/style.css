@@ -1,14 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "SUSE", sans-serif;
 }
 
+:root {
+    --night: #121118;
+    --seasalt: #FAFAFA;
+    --ash-gray: #9AB9B3;
+    --green: #357266;
+    --blush: #E6507C;
+  }
+
 body { 
-    background-color: #fffffb;
+    background-color: #9AB9B3;
     font-size: 16px;
     padding: 0 5em;
     min-height: 100vh;
@@ -27,7 +35,7 @@ h1 {
 }
 
 div {
-    background-color: #ffc145;
+    background-color: #357266;
     margin: 5rem;
     padding: 2.5rem 3.5rem; 
     border-radius: 20px;
@@ -42,18 +50,18 @@ label {
 }
 
 input[type=text] {
-    background-color: #ffc145;
+    background-color: #9AB9B3;
     outline: none;
     border: none;
-    border-bottom: 2px solid #5b5f97;
     text-align: center;
     font-size: 1.1rem;
     width: 300px;
     margin-right: 1rem;
+    padding: 0.5rem;
   }
 
 #check-btn {
-    background-color: #b8b8d1;
+    background-color: #F2A6BD;
     border: none;
     display: inline-block;
     padding: 0.75rem 1.8rem;
@@ -63,7 +71,7 @@ input[type=text] {
 
 #check-btn:hover {
     transition: all 0.3s ease-in-out;
-    background-color: #5b5f97;
+    background-color: #E6507C;
 }
 
 #result {
