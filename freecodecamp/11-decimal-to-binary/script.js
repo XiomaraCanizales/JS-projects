@@ -1,0 +1,70 @@
+// DOM elements
+const numberInput = document.getElementById("number-input")
+const convertBtn = document.getElementById("convert-btn")
+const result = document.getElementById("result")
+
+// decimal to binary conversion
+
+
+const decimalToBinary = (input) => {
+/* 
+    ***EASY, no recursion***
+    const inputs = []
+    const quotients = []
+    const remainders = []
+
+    if (input === 0) {
+        result.innerHTML = "0"
+        return
+    }
+    
+    while (input > 0) {
+        const quotient = Math.floor(input / 2)
+        const remainder = input % 2
+        inputs.push(input)
+        quotients.push(quotient)
+        remainders.push(remainder)
+
+        input = quotient
+    }
+
+    result.innerText = remainders.reverse().join("")
+*/
+
+    // ***RECURSION***
+    let binary = ""
+
+    if (input === 0) {
+        binary = "0"
+    }
+
+    while (input > 0) {
+        binary = (input % 2) + binary
+        input = Math.floor(input / 2)
+    }
+
+    result.innerText = binary 
+
+} 
+
+
+// check for user's input
+const checkUserInput = () => {
+    if (
+        !numberInput.value || 
+        isNaN(parseInt(numberInput.value)) || 
+        parseInt(numberInput.value) < 0
+    ) {
+        alert("Please provide a decimal number greater than or equal to 0")
+        return
+    }
+    decimalToBinary(parseInt(numberInput.value))
+    numberInput.value = ""
+}
+
+convertBtn.addEventListener("click", checkUserInput)
+numberInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+        checkUserInput()
+    }
+})
