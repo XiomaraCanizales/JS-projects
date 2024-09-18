@@ -31,8 +31,8 @@ const decimalToBinary = (input) => {
     result.innerText = remainders.reverse().join("")
 */
 
-    // ***RECURSION***
-    let binary = ""
+    // ***RECURSION w. input***
+    /* let binary = ""
 
     if (input === 0) {
         binary = "0"
@@ -43,8 +43,14 @@ const decimalToBinary = (input) => {
         input = Math.floor(input / 2)
     }
 
-    result.innerText = binary 
+    result.innerText = binary  */
 
+    // ***RECURSION w. function***
+    if (input === 0 || input === 1) {
+        return String(input)
+    } else {
+        return decimalToBinary(Math.floor(input/2)) + (input % 2)
+    }
 } 
 
 
@@ -58,7 +64,7 @@ const checkUserInput = () => {
         alert("Please provide a decimal number greater than or equal to 0")
         return
     }
-    decimalToBinary(parseInt(numberInput.value))
+    result.textContent = decimalToBinary(parseInt(numberInput.value))
     numberInput.value = ""
 }
 

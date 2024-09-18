@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+:root {
+    --night: #121118;
+    --seasalt: #FAFAFA;
+    --ash-gray: #9AB9B3;
+    --green: #357266;
+    --blush: #E6507C;
+}
+
 *,
 *::before,
 *::after {
@@ -6,21 +16,16 @@
   padding: 0;
 }
 
-:root {
-  --light-grey: #f5f6f7;
-  --dark-blue: #1b1b32;
-  --orange: #f1be32;
-}
-
 body {
-  background-color: var(--dark-blue);
-  font-family: "Times New Roman", Times, serif;
+  background-color: var(--blush);
+  font-family: "SUSE", sans-serif;
   font-size: 18px;
-  color: var(--light-grey);
+  color: var(--seasalt);
   padding: 0 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 10%;
 }
 
 h1 {
@@ -39,10 +44,18 @@ h1 {
 }
 
 .convert-btn {
-  background-color: var(--orange);
+  background-color: var(--green);
   cursor: pointer;
-  border: none;
-  padding: 4px;
+  border: var(--green) 2px solid;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+  border-radius: 10px;
+  color: var(--seasalt);
+}
+
+.convert-btn:hover {
+  border: var(--green) 2px solid;
+  background-color: var(--blush);
 }
 
 .number-input {
@@ -56,7 +69,7 @@ h1 {
   min-height: 80px;
   word-break: break-word;
   padding: 15px;
-  border: 5px solid var(--orange);
+  border: 3px solid var(--green);
   font-size: 2rem;
   text-align: center;
 }
@@ -69,7 +82,7 @@ h1 {
 .animation-frame {
   margin: 250px auto 0;
   padding: 15px 10px;
-  border: 5px solid var(--orange);
+  border: 5px solid var(--ash-gray);
   font-size: 1.2rem;
   text-align: center;
 }
