@@ -56,16 +56,18 @@ const decimalToBinary = (input) => {
 
 // check for user's input
 const checkUserInput = () => {
+    const inputInt = parseInt(numberInput.value)
     if (
-        !numberInput.value || 
-        isNaN(parseInt(numberInput.value)) || 
-        parseInt(numberInput.value) < 0
+        !numberInput.value ||
+        isNaN(inputInt) ||
+        inputInt < 0
     ) {
-        alert("Please provide a decimal number greater than or equal to 0")
-        return
+        alert("Please provide a decimal number greater than or equal to 0");
+        return;
     }
-    result.textContent = decimalToBinary(parseInt(numberInput.value))
-    numberInput.value = ""
+
+    result.textContent = decimalToBinary(inputInt);
+    numberInput.value = "";
 }
 
 convertBtn.addEventListener("click", checkUserInput)
