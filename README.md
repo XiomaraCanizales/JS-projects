@@ -1,11 +1,5 @@
 # JavaScritp Practice Projects
 
-## JavaScript Algorithms and Data Structures (Beta)
-Exercises Worked on the Certification Program
-- Role Playing Game
-- Calorie Counter Calculator
-- Music Player App
-
 ## Javascriptmas 2023
 - Day 01: Christmas Counter ✅
 - Day 02: Style a Colorful Button ✅
@@ -54,6 +48,7 @@ Projects created with [this tutorial](https://youtu.be/c5SIG7Ie0dM)
 
 ## JavaScript Games
 Project created with [this tutorial](https://youtu.be/ec8vSKJuZTk?si=OK3MNlmoONknkPcc)
+
 ### Projects
 - Rock Paper Scissors ✅
 - Memory ✅
@@ -63,10 +58,5 @@ Project created with [this tutorial](https://youtu.be/ec8vSKJuZTk?si=OK3MNlmoONk
 - Connect four ✅
 - Space Invaders ✅
 
-## Other JavaScript Games
-- Jeopardy
-- Pacman
-- Word Association
-
-## Random Projects
-- Random Quote Generator
+## Other Projects
+- Pomodoro
